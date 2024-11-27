@@ -1,0 +1,147 @@
+import { StyleSheet } from 'react-native';
+
+export default styles = StyleSheet.create({
+  container: {
+    backgroundColor: 'white',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 1
+  },
+  external: {
+    flex: 1,
+  },
+  logo: {
+    width: 250,
+    height: 250
+  },
+  input: {
+    height: 50,
+    borderColor: '#8C1FCE',
+    borderBottomWidth: 1,
+    borderRadius: 10,
+    marginBottom: 25,
+    paddingHorizontal: 15,
+    width: '80%',
+    outlineStyle: 'none',
+  },
+  button: {
+    width: '50%',
+    paddingVertical: 10,
+    backgroundColor: '#8C1FCE',
+    alignItems: 'center',
+    borderRadius: 10,
+  },
+  button_text: {
+    color: 'white',
+  },
+  btn_cadastro: {
+    paddingTop: 15,
+    color: '#8C1FCE'
+  },
+  divErro: {
+    backgroundColor: '#8C1FCE',
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
+    flexDirection: 'row',
+    width: 260,
+    height: 60,
+    padding: 10,
+    position: 'absolute',
+    top: 60
+  },
+  error: {
+    color: 'white',
+    fontWeight: 'bold'
+  },
+  alertIcon: {
+    height: 20
+  },
+  containerHome: {                             //Estilização da página HomePage.js
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    width: '100%',
+    height: 70,
+    shadowColor: '#171717',
+    shadowOffset: {width: -2, height: 4},
+    shadowOpacity: 0.2,
+    shadowRadius: 3,
+    marginBottom: 10
+  },
+  profile: {
+    width: '50%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-evenly'
+  },
+  profileText: {
+    fontWeight: 'bold',
+    marginBottom: 25
+  },
+  profileImage: {
+    height: 50,
+    width: 50,
+    borderRadius: 5
+  },
+  btnHeader: {
+    width: 60,
+    height: 30,
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  timeline: {
+    marginTop: 10,
+    marginBottom: 10
+  },
+  twit: {
+    width: 330,
+    backgroundColor: "#ddd7e0",
+    padding: 10,
+    marginTop: 5,
+    marginBottom: 5
+  },
+  btnNewTwit: {
+    borderRadius: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 60,
+    width: 60,
+    paddingLeft: 5,
+    paddingBottom: 5,
+    marginBottom: 10
+  },
+  writeIcon: {
+    height: 40,
+    width: 40
+  },                                 //Fim da estilização da página HomePage.js
+  newTwit: {                         //Começo da estilização da página NewTwitPage.js
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 1
+  },
+  newTwitInput: {
+    backgroundColor: '#ddd7e0',
+    height: 430,
+    width: 330,
+    padding: 15,
+    borderRadius: 10,
+    outlineStyle: 'none'
+  },
+  maxLetras: {
+    paddingTop: 10
+  },
+  btnTwit: {
+    width: 150,
+    marginTop: 20
+  },                               //Fim da estilização da página NewwTwitPage.js
+  userTwit: {
+    fontWeight: 'bold',
+    paddingBottom: 5
+  }
+});
